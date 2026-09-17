@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { vehicles } from '../data/vehicles';
-import type { Vehicle } from '../data/vehicles';
+
 import VehicleCard from '../components/VehicleCard';
 import { Filter, X } from 'lucide-react';
 
