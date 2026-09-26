@@ -26,7 +26,7 @@ export const vehicles: Vehicle[] = [
     priceText: '₹XXXX / day',
     description: 'The Toyota Innova Crysta is a premium MPV known for its comfort, reliability, and spacious interiors. Perfect for family trips and outstation travel.',
     features: ['AC', 'Power Steering', 'Power Windows', 'Airbags', 'ABS'],
-    imageUrl: 'https://images.unsplash.com/photo-1669299617277-28d8b672722b?q=80&w=800&auto=format&fit=crop', // Placeholder for MPV
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2021_Toyota_Innova_Crysta_2.4_ZX_%28India%29_front_view_02.png/800px-2021_Toyota_Innova_Crysta_2.4_ZX_%28India%29_front_view_02.png',
     rentalTypes: ['Local', 'Outstation'],
     status: 'Available'
   },
@@ -41,7 +41,7 @@ export const vehicles: Vehicle[] = [
     priceText: '₹XXXX / day',
     description: 'A versatile and economical 7-seater MPV, ideal for larger groups looking for comfortable local travel.',
     features: ['AC', 'Power Steering', 'Bluetooth Audio', 'Airbags'],
-    imageUrl: 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fd?q=80&w=800&auto=format&fit=crop', // Placeholder
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/2019_Suzuki_Ertiga_GL_1.5_NC32S_%2820190918%29.jpg/800px-2019_Suzuki_Ertiga_GL_1.5_NC32S_%2820190918%29.jpg',
     rentalTypes: ['Local', 'Outstation'],
     status: 'Information'
   },
@@ -56,7 +56,7 @@ export const vehicles: Vehicle[] = [
     priceText: '₹XXXX / day',
     description: 'The Hyundai Creta offers a smooth drive with premium features, making it a great choice for both city driving and highway cruising.',
     features: ['AC', 'Touchscreen Infotainment', 'Sunroof', 'Airbags', 'Rear Camera'],
-    imageUrl: 'https://images.unsplash.com/photo-1609521263047-f8f205293f24?q=80&w=800&auto=format&fit=crop', // Placeholder for SUV
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/2020_Hyundai_Creta_1.4_Turbo_SX_Opt_%28India%29_front_view_01.png/800px-2020_Hyundai_Creta_1.4_Turbo_SX_Opt_%28India%29_front_view_01.png',
     rentalTypes: ['Local', 'Outstation'],
     status: 'Available'
   },
@@ -71,7 +71,7 @@ export const vehicles: Vehicle[] = [
     priceText: '₹XXXX / day',
     description: 'A compact and peppy hatchback that is perfect for navigating city traffic with ease while providing excellent fuel economy.',
     features: ['AC', 'Power Steering', 'Airbags', 'ABS'],
-    imageUrl: 'https://images.unsplash.com/photo-1616422285623-13ff0162193c?q=80&w=800&auto=format&fit=crop', // Placeholder for Hatchback
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/2018_Maruti_Suzuki_Swift_ZXi_Plus_%28India%29_front_view.jpg/800px-2018_Maruti_Suzuki_Swift_ZXi_Plus_%28India%29_front_view.jpg',
     rentalTypes: ['Local'],
     status: 'Pending Confirmation'
   }

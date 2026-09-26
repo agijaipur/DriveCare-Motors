@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Vehicles from './pages/Vehicles';
+import NotFound from './pages/NotFound';
+import PlaceholderPage from './pages/PlaceholderPage';
 
 function App() {
   return (
@@ -10,18 +12,22 @@ function App() {
       <div className="min-h-screen flex flex-col bg-brand-soft font-sans">
         <Header />
         
-        <main className="flex-grow">
+        <main className="flex-grow pt-20">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/vehicles" element={<Vehicles />} />
-            {/* Additional routes will go here */}
-            <Route path="*" element={
-              <div className="py-32 text-center">
-                <h1 className="text-4xl font-bold mb-4">404 - Not Found</h1>
-                <p>Looks like you've taken a wrong turn.</p>
-                <a href="/" className="btn-primary mt-6">Back to DriveCare Motors</a>
-              </div>
-            } />
+            
+            {/* Pages in Development */}
+            <Route path="/rentals" element={<PlaceholderPage title="Rentals" />} />
+            <Route path="/car-care" element={<PlaceholderPage title="Car Care" />} />
+            <Route path="/car-care/packages" element={<PlaceholderPage title="Car Care Packages" />} />
+            <Route path="/gallery" element={<PlaceholderPage title="Gallery" />} />
+            <Route path="/about" element={<PlaceholderPage title="About Us" />} />
+            <Route path="/faqs" element={<PlaceholderPage title="FAQs" />} />
+            <Route path="/contact" element={<PlaceholderPage title="Contact Us" />} />
+            <Route path="/rental-enquiry" element={<PlaceholderPage title="Rental Enquiry" />} />
+
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
 
