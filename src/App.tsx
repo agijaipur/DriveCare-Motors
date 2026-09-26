@@ -5,6 +5,10 @@ import Home from './pages/Home';
 import Vehicles from './pages/Vehicles';
 import NotFound from './pages/NotFound';
 import PlaceholderPage from './pages/PlaceholderPage';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Rentals from './pages/Rentals';
+import CarCare from './pages/CarCare';
 
 function App() {
   return (
@@ -17,14 +21,16 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/vehicles" element={<Vehicles />} />
             
+            {/* Real Pages */}
+            <Route path="/rentals" element={<Rentals />} />
+            <Route path="/car-care" element={<CarCare />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+
             {/* Pages in Development */}
-            <Route path="/rentals" element={<PlaceholderPage title="Rentals" />} />
-            <Route path="/car-care" element={<PlaceholderPage title="Car Care" />} />
             <Route path="/car-care/packages" element={<PlaceholderPage title="Car Care Packages" />} />
             <Route path="/gallery" element={<PlaceholderPage title="Gallery" />} />
-            <Route path="/about" element={<PlaceholderPage title="About Us" />} />
             <Route path="/faqs" element={<PlaceholderPage title="FAQs" />} />
-            <Route path="/contact" element={<PlaceholderPage title="Contact Us" />} />
             <Route path="/rental-enquiry" element={<PlaceholderPage title="Rental Enquiry" />} />
 
             <Route path="*" element={<NotFound />} />
