@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle2, Calendar, MapPin, Car, ShieldCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
