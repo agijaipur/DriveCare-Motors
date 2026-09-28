@@ -13,6 +13,7 @@ export default {
           white: '#FFFFFF',
           soft: '#F6F6F4',
           gray: '#EAEAEA',
+          'gray-dark': '#6B7280',
           accent: '#D99A32',
         },
         status: {

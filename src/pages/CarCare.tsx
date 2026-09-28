@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Wrench, Sparkles, CarFront, GaugeCircle, CheckCircle } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const CarCare = () => {
   const fadeIn = {
@@ -58,9 +59,9 @@ const CarCare = () => {
             <p className="text-xl text-gray-300 mb-8">
               Professional mechanical repairs, servicing, and detailing by certified technicians who love cars as much as you do.
             </p>
-            <button className="bg-brand-accent hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full text-lg shadow-lg transition-all duration-300">
+            <Link to="/detailing-enquiry" className="inline-block bg-brand-accent hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full text-lg shadow-lg transition-all duration-300">
               Book a Service
-            </button>
+            </Link>
           </motion.div>
         </div>
       </section>
