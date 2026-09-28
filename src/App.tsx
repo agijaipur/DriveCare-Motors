@@ -4,7 +4,6 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Vehicles from './pages/Vehicles';
 import NotFound from './pages/NotFound';
-import PlaceholderPage from './pages/PlaceholderPage';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Rentals from './pages/Rentals';
